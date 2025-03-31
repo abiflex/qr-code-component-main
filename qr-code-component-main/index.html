@@ -8,14 +8,41 @@
   
   <title>Frontend Mentor | QR code component</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+      align-items: center;
+    }
+    
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+    }
+    .header {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: red;
+      text-align: center;
+      align-items: center;
+    }
+    
   </style>
 </head>
 <body>
-
+<section class="header">
+  <div class="card">
+  <img src="./images/image-qr-code.png" alt="qr-code scanner">
+  <br>
   Improve your front-end skills by building projects
 
   Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
@@ -24,5 +51,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+</div>
+  </section>
 </body>
 </html>
