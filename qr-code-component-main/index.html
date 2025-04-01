@@ -27,13 +27,28 @@
       width: 250px;
       height: 250px;
       border-radius: 10px;
+
     }
     .header {
-      margin-top: 100px;
-      padding: 20px;
-      background-color: red;
-      text-align: center;
-      align-items: center;
+     margin: 200px 200px;
+     align-items: center;
+     justify-content: center;
+    }
+    .card {
+      width: 190px;
+      height: 254px;
+      border-radius: 20px;
+      background: white;
+      position: relative;
+      padding: 1.8rem;
+      overflow: visible;
+    }
+    .card-details {
+      color: black;
+      height: 100%;
+      gap: .5em;
+      display: grid;
+      place-content: center;
     }
     
   </style>
@@ -41,6 +56,7 @@
 <body>
 <section class="header">
   <div class="card">
+    <div class="card-details">
   <img src="./images/image-qr-code.png" alt="qr-code scanner">
   <br>
   Improve your front-end skills by building projects
@@ -50,6 +66,7 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
+  </div>
   </div>
 </div>
   </section>
